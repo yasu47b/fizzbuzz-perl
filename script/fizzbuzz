@@ -1,24 +1,12 @@
 #!perl
 use strict;
 use warnings;
-
+use FizzBuzz;
 
 for my $i (1 .. 20) {
-	print "$i ", fizzbuzz($i);
+	print "$i ", FizzBuzz::fizzbuzz($i);
 	print "\n";
 }
 
 
-sub fizzbuzz {
-	my $i = shift;
 
-	if ($i % 3 == 0 && $i % 5 == 0) {
-		return "FizzBuzz";
-	} elsif ($i % 3 == 0) {
-		return "Fizz";
-	} elsif ($i % 5 == 0) {
-		return "Buzz";
-	} else {
-		return "";
-	}
-}
