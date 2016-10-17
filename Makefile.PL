@@ -8,6 +8,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
 	NAME => 'FizzBuzz',
 	VERSION => '0.001',
-	EXE_FILES => ['script/fizzbuzz']
+	EXE_FILES => ['script/fizzbuzz'],
+	test => {TESTS => 't/*.t'}
 
 );
