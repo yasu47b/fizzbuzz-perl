@@ -21,3 +21,11 @@ cpanm https://github.com/yasu47b/fizzbuzz-perl/tarball/master
 cpanm -U FizzBuzz
 
 ```
+## Getting Started
+
+after installtion you just hit command
+
+```perl
+$ fizzbuzz
+```
+
